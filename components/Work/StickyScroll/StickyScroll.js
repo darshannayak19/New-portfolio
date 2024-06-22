@@ -74,17 +74,33 @@ const StickyScroll = ({ contentItems }) => {
                 >
                   {item.title}
                 </motion.h2>
-                <motion.p
-                  initial={{
-                    opacity: 0,
-                  }}
-                  animate={{
-                    opacity: activeCard === index ? 1 : 0.3,
-                  }}
-                  className="text-lg text-slate-300 max-w-sm mt-4"
-                >
-                  {item.description}
-                </motion.p>
+                {Array.isArray(item.description) ? (
+                  <motion.ul
+                    initial={{
+                      opacity: 0,
+                    }}
+                    animate={{
+                      opacity: activeCard === index ? 1 : 0.3,
+                    }}
+                    className="text-lg text-slate-300 max-w-sm mt-4 list-disc pl-5"
+                  >
+                    {item.description.map((desc, i) => (
+                      <li key={i}>{desc}</li>
+                    ))}
+                  </motion.ul>
+                ) : (
+                  <motion.p
+                    initial={{
+                      opacity: 0,
+                    }}
+                    animate={{
+                      opacity: activeCard === index ? 1 : 0.3,
+                    }}
+                    className="text-lg text-slate-300 max-w-sm mt-4"
+                  >
+                    {item.description}
+                  </motion.p>
+                )}
               </div>
             ))}
             <div className="h-40" />

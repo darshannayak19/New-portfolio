@@ -11,8 +11,8 @@ const Work = ({ isDesktop }) => {
   const tabItems = useMemo(
     () => [
       {
-        title: "Dukaan",
-        value: "dukaan",
+        title: "University of Massachusetts Dartmouth",
+        value: "DUKAAN",
         content: (
           <StickyScroll
             isDesktop={isDesktop}
@@ -21,18 +21,18 @@ const Work = ({ isDesktop }) => {
         ),
       },
       {
-        title: "Aviate",
-        value: "Aviate",
+        title: "Building Assure PBC",
+        value: "AVI",
         content: (
           <StickyScroll
             isDesktop={isDesktop}
-            contentItems={WORK_CONTENTS.AVIATE}
+            contentItems={WORK_CONTENTS.AVI}
           />
         ),
       },
       {
-        title: "Spacenos",
-        value: "spacenos",
+        title: "JPMorgan Chase & Co",
+        value: "SPACENOS",
         content: (
           <StickyScroll
             isDesktop={isDesktop}
@@ -45,6 +45,7 @@ const Work = ({ isDesktop }) => {
   );
 
   useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
     const ctx = gsap.context(() => {
       const tl = gsap
         .timeline({ defaults: { ease: "none" } })
@@ -90,7 +91,7 @@ const Work = ({ isDesktop }) => {
               Experience
             </h1>
             <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
-              A quick recap of where I&apos;ve worked.{" "}
+              A quick recap of where I&apos;ve worked.
             </h2>
           </div>
           <Tabs tabItems={tabItems} />

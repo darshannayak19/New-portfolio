@@ -71,91 +71,110 @@ export const SOCIAL_LINKS = [
 export const WORK_CONTENTS = {
   DUKAAN: [
     {
-      title: "Dukaan",
-      description:
-        "Dukaan is a platform that enables businesses to launch their online stores at ease.",
+      title: "Software Developer Reasearch Assistant",
+      description: [
+        "Enhanced simulation communication efficiency, reducing excessive messaging and improving system performance by 20%.",
+        "Restructured Java methods into optimized functions, leveraging double HashMaps to increase software performance by 25% and user satisfaction by 30%, Integrating a live-constraint scheduler into simulations, boosting agent performance by 25%.",
+        "Organized project milestones, extracted key information, and established clear goals, reducing project setup time by 70% and project completion time by 15%, addressing workflow inefficiencies, Optimizing data type usage, resolving issues and increasing system effectiveness by 40%.",
+        "Published an IEEE paper on AI information sharing in heterogeneous agent teams (Java), accepted in Jan 2023, demonstrating a 138.6% increase in mission success and a 2-point average score improvement in simulations through integrated multi-agent communication protocols."
+      ],
       content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Revolutionizing commerce, one click at a time
-        </div>
-      ),
-    },
-    {
-      title: "Transformation",
-      description:
-        "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Senior Frontend Engineer
-        </div>
-      ),
-    },
-    {
-      title: "Evolution",
-      description:
-        "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer
-        </div>
-      ),
-    },
-    {
-      title: "Optimization",
-      description:
-        "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer Intern
+        <div className="flex flex-col items-center mt-14">
+          <div className="text-white">
+            February 2023 - Present
+          </div>
+          <div className="flex flex-col items-center mt-4">
+            <div className="border border-gray-800 mb-3 text-white py-1 px-3 rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+              <span className="px-2">Tech Stack</span>
+            </div>
+            <div className="flex flex-row space-x-5 mt-4">
+              <span className="px-2 border border-gray-800 text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+                Java
+              </span>
+              <span className="px-2 border border-gray-800  text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+                J2EE
+              </span>
+              <span className="px-2 border border-gray-800  text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+                JUnit
+              </span>
+            </div>
+          </div>
         </div>
       ),
     },
   ],
-  AVIATE: [
+  AVI: [
     {
-      title: "Aviate",
-      description:
-        "Aviate is a preparation and mentorship platform for job-seekers that are seeking non-technical roles across top companies",
+      title: "Software Development Engineer Intern",
+      description: [
+        "Engineered and managed back-end systems, enhancing privacy and data compliance functions by 45% through refined React.js components. Additionally, overhauled user experience by 50% through the implementation of offline access, data sync, and resolution of UI/UX issues.",
+        "Employed code-splitting techniques and streamlined rendering processes in React to minimize load time, reducing API calls by 25% and boosting system performance by 15% through the adoption of Redux and profiling tools, effectively addressing heavy load time issues.",
+        "Architected a robust MERN stack system architecture on Azure and Heroku, reducing hosting issues by 40% and enhancing uptime by 25%.",
+        "Rectified API integration errors, improving data retrieval accuracy and ensuring consistent application behavior, resulting in a 25% enhancement in code performance and reliability.",
+        "Generated 5000+ alerts from real-time data collected by over 100 IoT devices detecting anomalous behavior, utilizing 5 different graphs to categorize and verify alerts and devices before storing them in the database."
+      ],
       content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Finding the right job isn&apos;t fate, it&apos;s navigation
-        </div>
-      ),
-    },
-    {
-      title: "Innovation",
-      description:
-        "I spearheaded the development of Q-Rate, their flagship product, a voice-based applicant screening platform. Moreover, I took initiatives to enhance user engagement and drive substantial increases in daily traffic. Additionally, I implemented an error-logging and bug reporting system, significantly diminishing user-reported bugs.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Developer Intern
+        <div className="flex flex-col items-center mt-14">
+          <div className=" text-white">
+          January 2024 - April 2024
+          </div>
+          <div className="flex flex-col items-center mt-4">
+            <div className="border border-gray-800 mb-3 text-white py-1 px-3 rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+              <span className="px-2">Tech Stack</span>
+            </div>
+            <div className="flex flex-row items-center mt-4">
+              <span className="px-2 border border-gray-800 text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+                MongoDB
+              </span>
+              <span className="px-2 ml-3 border border-gray-800 text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+                Express.js
+              </span>
+              <span className="px-2 ml-3 border border-gray-800 text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+                React.js
+              </span>
+              <span className="px-2 ml-3 border border-gray-800 text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+                Node.js
+              </span>
+            </div>
+          </div>
         </div>
       ),
     },
   ],
   SPACENOS: [
     {
-      title: "Spacenos",
-      description:
-        "A dynamic startup dedicated to creating innovative products that make the world a better place.",
+      title: "Software Development Engineer Intern",
+      description: [
+        "Implemented Agile methodologies to enhance the front-end development process for financial data retrieval, resulting in a 25% improvement in responsiveness and user experience, and 2 times  the efficiency of data retrieval through optimizations using JavaScript, Angular.js, and React.js.",
+        "Increased user engagement by 20% and satisfaction by 15% through effective user interface enhancements and best practices in user experience and front-end development.",
+      ],
       content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          We build apps that solve problems for the next billion people
-        </div>
-      ),
-    },
-    {
-      title: "Trailblazing",
-      description:
-        "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Web Developer Intern
+        <div className="flex flex-col items-center mt-14">
+          <div className=" text-white">
+          May 2020 - June 2020
+          </div>
+          <div className="flex flex-col items-center mt-4">
+            <div className="border border-gray-800 mb-3 text-white py-1 px-3 rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+              <span className="px-2">Tech Stack</span>
+            </div>
+            <div className="flex flex-row items-center mt-4 space-x-2">
+              <span className="px-2 border ml-3 border-gray-800  text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+                React.js
+              </span>
+              <span className="px-2 ml-3 border border-gray-800 text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+                Angular.js
+              </span>
+              <span className="px-2 ml-3 border border-gray-800  text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+                Node.js
+              </span>
+            </div>
+          </div>
         </div>
       ),
     },
   ],
 };
+
 
 
 export const SKILLS = {
@@ -166,63 +185,50 @@ export const SKILLS = {
     "javascript",
     "java",
     "typescript",
-    "sass",
     "nodejs",
     "webpack",
-    "vite",
+    "vue",
     "firebase",
     "figma",
-    "tanstack-query",
   ],
   librariesAndFrameworks: [
     "react",
     "redux",
     "nextjs",
     "tailwindcss",
-    "styledcomponents",
-    "antdesign"
   ],
   databases: ["mysql", "mongodb"],
-  other: ["git", "sanity-io"],
+  other: ["git"],
 };
 
 export const PROJECTS = [
   {
-    name: "Airbnb",
-    image: "/projects/airbnb.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️",
-    gradient: ["#F14658", "#DC2537"],
-    url: "https://Darshan73-airbnb.vercel.app/",
-    tech: ["react", "nextjs", "tailwindcss", "mapbox"],
-  },
-  {
-    name: "Medium",
-    image: "/projects/medium.webp",
+    name: "Path Finding Visualizer",
+    image: "/projects/visual.webp",
     blurImage: "/projects/blur/medium-blur.webp",
-    description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
+    description: "Devised 5 pathfinding algorithms, enhancing efficiency by 40% for the Path Finding Visualizer project. Executed 2 maze generation methods for real-time challenges in the Path Finding Visualizer project. Innovated a First-Person view mode and camera input functionality for the Path Finding Visualizer project, resulting in a 60% increase in user interaction. Orchestrated 3D vision for users to immerse themselves in the maze and navigate interactively.",
     gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://Darshan73-medium.vercel.app/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
+    url: "https://dhruvmisra.github.io/Pathfinding-Visualizer-ThreeJS/",
+    tech: ["typescript", "react", "nextjs", "tailwindcss", "Vue"],
   },
   {
-    name: "Inshorts",
-    image: "/projects/inshorts.webp",
+    name: "Mathease",
+    image: "/projects/Mathease.webp",
     blurImage: "/projects/blur/airbnb-blur.webp",
     description:
-      "Conversational Voice Controlled React News Application using Alan AI 🎙",
+      "Spearheaded the development of an Edutech platform, enhancing study materials by collaborating with 50+ professors and previewing content, resulting in a 100% increase in user engagement. Initiated user-friendly features for material downloads and an efficient admin panel, increasing user retention by 25% and cutting content management time by 30%. Established a robust NoSQL eﬀicient database framework for access to 500+ files, enhancing to 1,500+ users.",
     gradient: ["#000066", "#6699FF"],
-    url: "https://Darshan73-inshorts.netlify.app/",
-    tech: ["react", "chakra-ui", "alan"],
+    url: "https://mathease.onrender.com/",
+    tech: ["react", "MongoDB", "Angular", "node"],
   },
   {
-    name: "Tesla",
-    image: "/projects/tesla.webp",
-    blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
-    gradient: ["#142D46", "#2E4964"],
-    url: "https://github.com/Darshan73/tesla",
-    tech: ["react"],
+    name: "AI Whisper",
+    image: "/projects/whisper.webp",
+    blurImage: "/projects/blur/airbnb-blur.webp",
+    description: "Developed a web API capable of converting uploaded audio files or recording real-time audio into text, supporting over 500 languages for the AI Whisper project. Integrated the Whisper AI model to improve audio recognition, achieving a 3-fold improvement in text generation accuracy.",
+    gradient: ["#F14658", "#DC2537"],
+    url: "",
+    tech: ["AI","react", "nextjs", "tailwindcss", "Vue"],
   },
 ];
 

@@ -1,13 +1,12 @@
 export const METADATA = {
-  author: "Shubh Porwal",
-  title: "Portfolio | Shubh Porwal",
+  author: "Darshan Nayak",
+  title: "Portfolio | Darshan Nayak",
   description:
-    "Shubh Porwal is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
-  siteUrl: "https://www.shubhporwal.me/",
-  twitterHandle: "@shubh731",
+    "Darshan Nayak is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
+  twitterHandle: "darshan77551322",
   keywords: [
-    "Shubh Porwal",
-    "Frontend Engineer",
+    "Darshan Nayak",
+    "Full stack Developer",
     "React Native Developer",
     "Software Engineer",
     "Portfolio",
@@ -26,6 +25,10 @@ export const MENULINKS = [
     ref: "home",
   },
   {
+    name: "Work",
+    ref: "work",
+  },
+  {
     name: "Skills",
     ref: "skills",
   },
@@ -34,17 +37,14 @@ export const MENULINKS = [
     ref: "projects",
   },
   {
-    name: "Work",
-    ref: "work",
-  },
-  {
     name: "Contact",
     ref: "contact",
   },
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
+  "A pragmatic Full Stack Developer",
+  "and a Software Engineer",
   "I build things for the web",
   "I create aesthetic and modern apps",
 ];
@@ -52,137 +52,21 @@ export const TYPED_STRINGS = [
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: shubhporwal73@gmail.com",
+    url: "mailto: darshannayak19@gmail.com",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/code-dars/",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
-  },
-  {
-    name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
+    url: "https://github.com/darshannayak19",
   },
   {
     name: "twitter",
-    url: "https://twitter.com/shubh731",
+    url: "https://x.com/darshan77551322",
   },
 ];
-
-export const SKILLS = {
-  languagesAndTools: [
-    "html",
-    "css",
-    "javascript",
-    "typescript",
-    "sass",
-    "nodejs",
-    "webpack",
-    "vite",
-    "firebase",
-    "figma",
-    "tanstack-query",
-  ],
-  librariesAndFrameworks: [
-    "react",
-    "redux",
-    "nextjs",
-    "tailwindcss",
-    "styledcomponents",
-    "antdesign",
-    "chakra-ui",
-  ],
-  databases: ["mysql", "mongodb"],
-  other: ["git", "sanity-io"],
-};
-
-export const PROJECTS = [
-  {
-    name: "Airbnb",
-    image: "/projects/airbnb.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️",
-    gradient: ["#F14658", "#DC2537"],
-    url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["react", "nextjs", "tailwindcss", "mapbox"],
-  },
-  {
-    name: "Medium",
-    image: "/projects/medium.webp",
-    blurImage: "/projects/blur/medium-blur.webp",
-    description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://shubh73-medium.vercel.app/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
-  },
-  {
-    name: "Inshorts",
-    image: "/projects/inshorts.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description:
-      "Conversational Voice Controlled React News Application using Alan AI 🎙",
-    gradient: ["#000066", "#6699FF"],
-    url: "https://shubh73-inshorts.netlify.app/",
-    tech: ["react", "chakra-ui", "alan"],
-  },
-  {
-    name: "Tesla",
-    image: "/projects/tesla.webp",
-    blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
-    gradient: ["#142D46", "#2E4964"],
-    url: "https://github.com/shubh73/tesla",
-    tech: ["react"],
-  },
-];
-
-// export const WORK = [
-//   {
-//     id: 1,
-//     company: "Dukaan",
-//     title: "Frontend Developer",
-//     location: "Bangalore, Karnataka",
-//     range: "December - Current",
-//     responsibilities: [
-//       "Led creation of a captivating cross-platform e-commerce solution.",
-//       "Enhanced UX with gamification and personalized push notifications ensuring an ever-improving shopping journey.",
-//       "The app boasts a DAU base of 32k and an extensive MAU count of 180k.",
-//     ],
-//     url: "https://mydukaan.io/",
-//     video: "/work/dukaan.mp4",
-//   },
-//   {
-//     id: 2,
-//     company: "Aviate",
-//     title: "Frontend Developer Intern",
-//     location: "Goa",
-//     range: "May - October 2022",
-//     responsibilities: [
-//       "Built their flagship product Q-Rate, a voice-based applicant screening platform.",
-//       "Developed pixel-perfect responsive web applications achieving daily traffic of 1000-2000 users.",
-//       "Successfully rolled out an error-logging and bug reporting system that cut user-reported bugs by 30%.",
-//     ],
-//     url: "https://www.aviate.jobs/",
-//     video: "/work/aviate.mp4",
-//   },
-//   {
-//     id: 3,
-//     company: "Spacenos",
-//     title: "Web Developer Intern",
-//     location: "Bangalore, Karnataka",
-//     range: "September - December 2021",
-//     responsibilities: [
-//       "Led the Full Stack revamp on the Admin Portal.",
-//       "Developed app integration with REST APIs, Google Maps, User Auth, Stripe and other libraries.",
-//       "Implemented CRUD features for all the services and providers.",
-//     ],
-//     url: "https://spacenos.com/",
-//     video: "/work/spacenos.mp4",
-//   },
-// ];
 
 export const WORK_CONTENTS = {
   DUKAAN: [
@@ -272,5 +156,119 @@ export const WORK_CONTENTS = {
     },
   ],
 };
+
+
+export const SKILLS = {
+  languagesAndTools: [
+    "Python",
+    "html",
+    "css",
+    "javascript",
+    "java",
+    "typescript",
+    "sass",
+    "nodejs",
+    "webpack",
+    "vite",
+    "firebase",
+    "figma",
+    "tanstack-query",
+  ],
+  librariesAndFrameworks: [
+    "react",
+    "redux",
+    "nextjs",
+    "tailwindcss",
+    "styledcomponents",
+    "antdesign"
+  ],
+  databases: ["mysql", "mongodb"],
+  other: ["git", "sanity-io"],
+};
+
+export const PROJECTS = [
+  {
+    name: "Airbnb",
+    image: "/projects/airbnb.webp",
+    blurImage: "/projects/blur/airbnb-blur.webp",
+    description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️",
+    gradient: ["#F14658", "#DC2537"],
+    url: "https://Darshan73-airbnb.vercel.app/",
+    tech: ["react", "nextjs", "tailwindcss", "mapbox"],
+  },
+  {
+    name: "Medium",
+    image: "/projects/medium.webp",
+    blurImage: "/projects/blur/medium-blur.webp",
+    description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
+    gradient: ["#FFA62E", "#EA4D2C"],
+    url: "https://Darshan73-medium.vercel.app/",
+    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
+  },
+  {
+    name: "Inshorts",
+    image: "/projects/inshorts.webp",
+    blurImage: "/projects/blur/airbnb-blur.webp",
+    description:
+      "Conversational Voice Controlled React News Application using Alan AI 🎙",
+    gradient: ["#000066", "#6699FF"],
+    url: "https://Darshan73-inshorts.netlify.app/",
+    tech: ["react", "chakra-ui", "alan"],
+  },
+  {
+    name: "Tesla",
+    image: "/projects/tesla.webp",
+    blurImage: "/projects/blur/tesla-blur.webp",
+    description: "A Tesla React Native App 🏎️",
+    gradient: ["#142D46", "#2E4964"],
+    url: "https://github.com/Darshan73/tesla",
+    tech: ["react"],
+  },
+];
+
+// export const WORK = [
+//   {
+//     id: 1,
+//     company: "Dukaan",
+//     title: "Frontend Developer",
+//     location: "Bangalore, Karnataka",
+//     range: "December - Current",
+//     responsibilities: [
+//       "Led creation of a captivating cross-platform e-commerce solution.",
+//       "Enhanced UX with gamification and personalized push notifications ensuring an ever-improving shopping journey.",
+//       "The app boasts a DAU base of 32k and an extensive MAU count of 180k.",
+//     ],
+//     url: "https://mydukaan.io/",
+//     video: "/work/dukaan.mp4",
+//   },
+//   {
+//     id: 2,
+//     company: "Aviate",
+//     title: "Frontend Developer Intern",
+//     location: "Goa",
+//     range: "May - October 2022",
+//     responsibilities: [
+//       "Built their flagship product Q-Rate, a voice-based applicant screening platform.",
+//       "Developed pixel-perfect responsive web applications achieving daily traffic of 1000-2000 users.",
+//       "Successfully rolled out an error-logging and bug reporting system that cut user-reported bugs by 30%.",
+//     ],
+//     url: "https://www.aviate.jobs/",
+//     video: "/work/aviate.mp4",
+//   },
+//   {
+//     id: 3,
+//     company: "Spacenos",
+//     title: "Web Developer Intern",
+//     location: "Bangalore, Karnataka",
+//     range: "September - December 2021",
+//     responsibilities: [
+//       "Led the Full Stack revamp on the Admin Portal.",
+//       "Developed app integration with REST APIs, Google Maps, User Auth, Stripe and other libraries.",
+//       "Implemented CRUD features for all the services and providers.",
+//     ],
+//     url: "https://spacenos.com/",
+//     video: "/work/spacenos.mp4",
+//   },
+// ];
 
 export const GTAG = "G-5HCTL2TJ5W";

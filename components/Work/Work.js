@@ -69,7 +69,7 @@ const Work = ({ isDesktop }) => {
   return (
     <section
       ref={sectionRef}
-      id={MENULINKS[3].ref}
+      id={MENULINKS[1].ref}
       className="w-full relative select-none xs:mt-40 sm:mt-72 mb-96"
     >
       <img

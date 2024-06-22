@@ -45,10 +45,10 @@ const About1 = ({ clientHeight }) => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="w-full relative select-none">
+    <section ref={sectionRef} className="w-full relative select-none pd-none">
       <div
         className={`${
-          clientHeight > 650 ? "pt-28 pb-16" : "pt-80 pb-72"
+          clientHeight > 650 ? "pt-28" : "pt-80 pb-30"
         } section-container`}
       >
         <h1

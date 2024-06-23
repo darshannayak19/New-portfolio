@@ -92,7 +92,7 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
           </div>
         </div>
         <h2
-          className="text-lg z-10 tracking-wide font-medium text-black transform-gpu"
+          className="text-lg z-10 tracking-wide font-medium text-blue transform-gpu"
           style={{ transform: "translateZ(0.8rem)" }}
         >
           {description}

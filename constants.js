@@ -71,7 +71,7 @@ export const SOCIAL_LINKS = [
 export const WORK_CONTENTS = {
   DUKAAN: [
     {
-      title: "Software Developer Reasearch Assistant",
+      title: "Software Developer | Reasearch Assistant",
       description: [
         "Enhanced simulation communication efficiency, reducing excessive messaging and improving system performance by 20%.",
         "Restructured Java methods into optimized functions, leveraging double HashMaps to increase software performance by 25% and user satisfaction by 30%, Integrating a live-constraint scheduler into simulations, boosting agent performance by 25%.",
@@ -84,17 +84,17 @@ export const WORK_CONTENTS = {
             February 2023 - Present
           </div>
           <div className="flex flex-col items-center mt-4">
-            <div className="border border-gray-800 mb-3 text-white py-1 px-3 rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+            <div className="mb-3 text-white">
               <span className="px-2">Tech Stack</span>
             </div>
             <div className="flex flex-row space-x-5 mt-4">
-              <span className="px-2 border border-gray-800 text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+              <span className="px-2 text-white ">
                 Java
               </span>
-              <span className="px-2 border border-gray-800  text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+              <span className="px-2  text-white">
                 J2EE
               </span>
-              <span className="px-2 border border-gray-800  text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+              <span className="px-2  text-white">
                 JUnit
               </span>
             </div>
@@ -119,20 +119,20 @@ export const WORK_CONTENTS = {
           January 2024 - April 2024
           </div>
           <div className="flex flex-col items-center mt-4">
-            <div className="border border-gray-800 mb-3 text-white py-1 px-3 rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+            <div className="mb-3 text-white">
               <span className="px-2">Tech Stack</span>
             </div>
             <div className="flex flex-row items-center mt-4">
-              <span className="px-2 border border-gray-800 text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+              <span className="px-2 text-white ">
                 MongoDB
               </span>
-              <span className="px-2 ml-3 border border-gray-800 text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+              <span className="px-2 text-white ">
                 Express.js
               </span>
-              <span className="px-2 ml-3 border border-gray-800 text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+              <span className="px-2 text-white ">
                 React.js
               </span>
-              <span className="px-2 ml-3 border border-gray-800 text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+              <span className="px-2 text-white ">
                 Node.js
               </span>
             </div>
@@ -154,17 +154,17 @@ export const WORK_CONTENTS = {
           May 2020 - June 2020
           </div>
           <div className="flex flex-col items-center mt-4">
-            <div className="border border-gray-800 mb-3 text-white py-1 px-3 rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+            <div className="mb-3 text-white ">
               <span className="px-2">Tech Stack</span>
             </div>
             <div className="flex flex-row items-center mt-4 space-x-2">
-              <span className="px-2 border ml-3 border-gray-800  text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+              <span className="px-2 text-white">
                 React.js
               </span>
-              <span className="px-2 ml-3 border border-gray-800 text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+              <span className="px-2 text-white">
                 Angular.js
               </span>
-              <span className="px-2 ml-3 border border-gray-800  text-white rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300">
+              <span className="px-2 text-white">
                 Node.js
               </span>
             </div>
